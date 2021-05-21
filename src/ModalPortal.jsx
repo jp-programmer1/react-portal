@@ -1,9 +1,9 @@
 import React from 'react'
 import { createPortal } from "react-dom";
 
-const ModalPortal = ({ title, children, isOpened, onClose, type }) => {
-  if (isOpened) {
-    
+const ModalPortal = ({ title, children, isOpened, onClose }) => {
+
+  if (isOpened) {  
     return createPortal(
       <React.Fragment>
         <div className="portal">

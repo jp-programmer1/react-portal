@@ -20,10 +20,10 @@ const App = () => {
         </Button>
         
         {/* Modal Portal */}
-        <ModalPortal isOpened={openPortal} title="Modal Portal" onClose={() => setOpenPortal(false)} children="Ni me pinta esa prro" />
+        <ModalPortal isOpened={openPortal} title="Modal Portal" onClose={() => setOpenPortal(false)} children="Modal renderizado en un portal" />
 
         {/* Modal */}
-        <Modal isOpened={openModal} title="Modal" onClose={() => setOpenModal(false)} children="Si me pinta esa prro" />
+        <Modal isOpened={openModal} title="Modal" onClose={() => setOpenModal(false)} children="Modal default" />
 
       </header>
     </div>

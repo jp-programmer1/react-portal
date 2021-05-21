@@ -1,17 +1,8 @@
-.default-button{
-  width: 10%;
-  height: 2rem;
-  border: none;
-  color: #ecf0f1;
-  background-color: #3498db;
-  cursor: pointer;
-}
-
-
 #modal-portal {
   position: relative;
   z-index: 999;
 }
+
 .portal {
   background-color: rgba(172, 172, 172, 0.494)!important;
   position: fixed;
@@ -47,7 +38,7 @@
 }
 
 .line{
-  border: 1px solid rgba(0, 0, 0, 0.385);
+  border: 1px solid #2980b9;
 }
 
 .children{
